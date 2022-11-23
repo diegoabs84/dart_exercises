@@ -32,8 +32,7 @@ void main() {
     Exp.add(experiencia);
   }
 
-  //O número de candidatos do sexo feminino e masculino.
-
+  
   var homens = [];
   var mulheres = [];
 
@@ -59,8 +58,7 @@ void main() {
     print("Não foram cadastradas candidatas femininas.");
   }
 
-  //A idade média dos homens que já tem experiência no serviço.
-
+  
   num idadeH = 0;
 
   for (int i = 0; i < Idade.length; i++) {
@@ -79,8 +77,7 @@ void main() {
     print("Não foram encontrados homens com experiência ou não existem nenhum cadastrados.");
   }
 
-  //A porcentagem dos homens com mais de 45 anos com relação ao total de homens.
-
+  
   var pH45 = [];
 
   for (int i = 0; i < Idade.length; i++) {
@@ -101,7 +98,6 @@ void main() {
     print("Não foram encontrados dados de homens com idade superior a 45 anos.");
   }
 
-// O número de mulheres com idade inferior a 30 anos e com experiência no serviço.
 
   num mME = 0;
 
@@ -122,14 +118,11 @@ void main() {
         "Não foram encontradas mulheres com idade inferior a 30 anos ou com experiência no serviço");
   }
 
-  // O nome da candidata com a menor idade que já tem experiência no serviço.
-
-  
+    
   var LSFem = [];
   var LISFem = [];
   var LESFem = [];
 
-  //separando sexo feminino na lista e já tem experiencia
   print("");
   if (Sexo.contains("F")) {
     for (int i = 0; i < Sexo.length; i++) {
